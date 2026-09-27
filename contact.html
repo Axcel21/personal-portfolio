@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Alex Rivera</title>
+  <meta name="description" content="Get in touch with Alex Rivera by email, social links, or the contact form." />
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <span class="brand-name">Alex Rivera</span>
+    <button class="hamburger" data-hamburger aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-drawer" data-mobile-drawer aria-label="Mobile navigation">
+    <ul class="nav-list">
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="about.html">About</a></li>
+      <li><a class="nav-link" href="skills.html">Skills</a></li>
+      <li><a class="nav-link" href="projects.html">Projects</a></li>
+      <li><a class="nav-link" href="resume.html">Resume</a></li>
+      <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <div class="social-row">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:alex.rivera@example.com" aria-label="Email">@</a>
+      </div>
+      <button class="theme-toggle" data-theme-toggle type="button">
+        <span class="icon-light">🌙 Dark mode</span>
+        <span class="icon-dark">☀️ Light mode</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AR</div>
+        <span class="brand-name">Alex Rivera</span>
+        <span class="brand-role">BS Information Technology Student</span>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="resume.html">Resume</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="social-row">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:alex.rivera@example.com" aria-label="Email">@</a>
+        </div>
+        <button class="theme-toggle" data-theme-toggle type="button">
+          <span class="icon-light">🌙 Dark mode</span>
+          <span class="icon-dark">☀️ Light mode</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="content">
+        <div class="page-header">
+          <h1>Let's talk</h1>
+          <p class="section-lead">Have an opportunity, a question, or feedback on a project? Reach out any of these ways.</p>
+        </div>
+
+        <section class="section contact-grid">
+          <div>
+            <h2 style="font-size:1.1rem;">Contact details</h2>
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <span class="glyph">@</span>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:alex.rivera@example.com">alex.rivera@example.com</a>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="glyph">GH</span>
+                <div>
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="glyph">in</span>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">linkedin.com/in/your-username</a>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="glyph">📍</span>
+                <div>
+                  <h3>Location</h3>
+                  <span class="value">Cebu City, Philippines — open to remote work</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 style="font-size:1.1rem;">Send a message</h2>
+            <div class="form-status" data-form-status></div>
+            <form data-contact-form novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" />
+                <p class="field-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" />
+                <p class="field-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+                <p class="field-error"></p>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me a bit about it (at least 20 characters)"></textarea>
+                <p class="field-error"></p>
+                <p class="char-count" data-char-count>0 characters</p>
+              </div>
+              <button class="btn btn-primary" type="submit">Send message</button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <span>© <span data-year></span> Alex Rivera. Built with HTML, CSS &amp; JavaScript.</span>
+          <span>Hosted on GitHub Pages</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <button class="scroll-top-btn" data-scroll-top aria-label="Scroll back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="profileTitle">
+  <title id="profileTitle">Illustrated portrait placeholder in blueprint style</title>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#3457D5" opacity="0.12"/>
+    </pattern>
+    <clipPath id="frame">
+      <circle cx="200" cy="200" r="172"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="200" cy="200" r="184" fill="none" stroke="#3457D5" stroke-width="2" stroke-dasharray="2 8"/>
+  <circle cx="200" cy="200" r="172" fill="#F4F2ED"/>
+  <rect x="28" y="28" width="344" height="344" fill="url(#dots)" clip-path="url(#frame)"/>
+
+  <g clip-path="url(#frame)">
+    <rect x="28" y="250" width="344" height="122" fill="#1B1F2A"/>
+    <path d="M120 250 C120 175 165 145 200 145 C235 145 280 175 280 250 Z" fill="#1B1F2A"/>
+    <circle cx="200" cy="168" r="58" fill="#EAD9C0"/>
+    <path d="M142 150 C142 105 168 78 200 78 C232 78 258 105 258 150 L258 130 C258 100 232 90 200 90 C168 90 142 100 142 130 Z" fill="#1B1F2A"/>
+    <path d="M148 158 C146 135 168 118 200 118 C232 118 254 135 252 158 L246 150 C238 132 222 126 200 126 C178 126 162 132 154 150 Z" fill="#1B1F2A"/>
+    <circle cx="178" cy="172" r="4.5" fill="#1B1F2A"/>
+    <circle cx="222" cy="172" r="4.5" fill="#1B1F2A"/>
+    <path d="M186 196 Q200 206 214 196" stroke="#1B1F2A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <rect x="120" y="252" width="160" height="14" fill="#E8A33D"/>
+  </g>
+
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#1B1F2A" stroke-width="3"/>
+  <g stroke="#E8A33D" stroke-width="3" stroke-linecap="round">
+    <line x1="90" y1="60" x2="108" y2="78"/>
+    <line x1="108" y1="60" x2="90" y2="78"/>
+    <line x1="300" y1="330" x2="318" y2="348"/>
+    <line x1="318" y1="330" x2="300" y2="348"/>
+  </g>
+</svg>

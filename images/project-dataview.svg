@@ -1,0 +1,30 @@
+<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t4">
+  <title id="t4">DataView project preview: analytics dashboard with charts</title>
+  <rect width="480" height="300" fill="#F4F2ED"/>
+  <rect x="24" y="24" width="432" height="252" rx="6" fill="#ffffff" stroke="#1B1F2A" stroke-width="2"/>
+  <rect x="24" y="24" width="432" height="34" rx="6" fill="#1B1F2A"/>
+  <rect x="40" y="36" width="90" height="10" fill="#F4F2ED"/>
+
+  <g>
+    <rect x="40" y="80" width="150" height="90" fill="none" stroke="#1B1F2A" stroke-width="1.5"/>
+    <polyline points="48,150 75,120 100,135 128,90 155,110 180,95" fill="none" stroke="#3457D5" stroke-width="3"/>
+    <circle cx="180" cy="95" r="4" fill="#E8A33D"/>
+  </g>
+
+  <g>
+    <rect x="210" y="80" width="110" height="90" fill="none" stroke="#1B1F2A" stroke-width="1.5"/>
+    <rect x="222" y="120" width="14" height="40" fill="#3457D5"/>
+    <rect x="244" y="100" width="14" height="60" fill="#E8A33D"/>
+    <rect x="266" y="130" width="14" height="30" fill="#3457D5"/>
+    <rect x="288" y="108" width="14" height="52" fill="#E8A33D"/>
+  </g>
+
+  <g>
+    <rect x="340" y="80" width="96" height="90" fill="none" stroke="#1B1F2A" stroke-width="1.5"/>
+    <circle cx="388" cy="125" r="34" fill="none" stroke="#3457D5" stroke-width="10" stroke-dasharray="120 214"/>
+    <circle cx="388" cy="125" r="34" fill="none" stroke="#E8A33D" stroke-width="10" stroke-dasharray="70 214" stroke-dashoffset="-120"/>
+  </g>
+
+  <rect x="40" y="188" width="396" height="70" fill="none" stroke="#1B1F2A" stroke-width="1.5"/>
+  <polyline points="48,235 70,210 92,240 114,200 136,225 158,205 180,230 202,215 224,238 246,208 268,222 290,198 312,232 334,212 356,226 378,204 400,229 422,214" fill="none" stroke="#3457D5" stroke-width="2"/>
+</svg>

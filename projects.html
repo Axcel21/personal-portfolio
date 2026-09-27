@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Alex Rivera</title>
+  <meta name="description" content="Selected software projects by Alex Rivera, with descriptions, technologies used, and links." />
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <span class="brand-name">Alex Rivera</span>
+    <button class="hamburger" data-hamburger aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-drawer" data-mobile-drawer aria-label="Mobile navigation">
+    <ul class="nav-list">
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="about.html">About</a></li>
+      <li><a class="nav-link" href="skills.html">Skills</a></li>
+      <li><a class="nav-link" href="projects.html">Projects</a></li>
+      <li><a class="nav-link" href="resume.html">Resume</a></li>
+      <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <div class="social-row">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:alex.rivera@example.com" aria-label="Email">@</a>
+      </div>
+      <button class="theme-toggle" data-theme-toggle type="button">
+        <span class="icon-light">🌙 Dark mode</span>
+        <span class="icon-dark">☀️ Light mode</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">AR</div>
+        <span class="brand-name">Alex Rivera</span>
+        <span class="brand-role">BS Information Technology Student</span>
+      </div>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="resume.html">Resume</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="social-row">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:alex.rivera@example.com" aria-label="Email">@</a>
+        </div>
+        <button class="theme-toggle" data-theme-toggle type="button">
+          <span class="icon-light">🌙 Dark mode</span>
+          <span class="icon-dark">☀️ Light mode</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="content-wide">
+        <div class="page-header">
+          <h1>Projects</h1>
+          <p class="section-lead">Four projects that show different sides of how I build — pick a filter to narrow the list, or click a preview to see it larger.</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter projects by technology">
+          <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="frontend" type="button">Frontend</button>
+          <button class="filter-btn" data-filter="javascript" type="button">JavaScript</button>
+          <button class="filter-btn" data-filter="api" type="button">API-driven</button>
+          <button class="filter-btn" data-filter="data" type="button">Data viz</button>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card" data-project-tags="frontend,javascript">
+            <div class="project-thumb" data-modal-trigger data-caption="TaskFlow — kanban board view">
+              <img src="images/project-taskflow.svg" alt="Screenshot of the TaskFlow kanban board with three columns" />
+            </div>
+            <div class="project-body">
+              <h3>TaskFlow</h3>
+              <p>A drag-and-drop kanban board for managing personal tasks across "To Do," "In Progress," and "Done" columns, with data saved locally so a board survives a page refresh.</p>
+              <div class="tag-row">
+                <span class="tag">HTML</span><span class="tag">CSS Grid</span><span class="tag">JavaScript</span><span class="tag">LocalStorage</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/your-username/taskflow" target="_blank" rel="noopener">Code ↗</a>
+                <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="api,frontend">
+            <div class="project-thumb" data-modal-trigger data-caption="WeatherNow — mobile screen">
+              <img src="images/project-weathernow.svg" alt="Screenshot of the WeatherNow mobile app showing current temperature" />
+            </div>
+            <div class="project-body">
+              <h3>WeatherNow</h3>
+              <p>A mobile-first weather lookup app that pulls live conditions and a 3-day outlook from a public weather API, with graceful error states when a city can't be found.</p>
+              <div class="tag-row">
+                <span class="tag">JavaScript</span><span class="tag">Fetch API</span><span class="tag">CSS Flexbox</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/your-username/weathernow" target="_blank" rel="noopener">Code ↗</a>
+                <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="javascript,frontend">
+            <div class="project-thumb" data-modal-trigger data-caption="PixelQuest — puzzle grid">
+              <img src="images/project-pixelquest.svg" alt="Screenshot of the PixelQuest tile-matching puzzle grid" />
+            </div>
+            <div class="project-body">
+              <h3>PixelQuest</h3>
+              <p>A browser-based tile-matching puzzle game with a scoring system, move counter, and increasing difficulty across levels — built to practice game-loop logic in vanilla JavaScript.</p>
+              <div class="tag-row">
+                <span class="tag">JavaScript</span><span class="tag">Canvas</span><span class="tag">CSS Animations</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/your-username/pixelquest" target="_blank" rel="noopener">Code ↗</a>
+                <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-tags="data,api">
+            <div class="project-thumb" data-modal-trigger data-caption="DataView — analytics dashboard">
+              <img src="images/project-dataview.svg" alt="Screenshot of the DataView dashboard with a line chart, bar chart and pie chart" />
+            </div>
+            <div class="project-body">
+              <h3>DataView</h3>
+              <p>An analytics dashboard that turns a class survey's CSV export into an interactive set of charts, letting a viewer filter responses by category and see the numbers update live.</p>
+              <div class="tag-row">
+                <span class="tag">JavaScript</span><span class="tag">Chart.js</span><span class="tag">CSV parsing</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/your-username/dataview" target="_blank" rel="noopener">Code ↗</a>
+                <a href="#" target="_blank" rel="noopener">Live demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <footer class="site-footer">
+          <span>© <span data-year></span> Alex Rivera. Built with HTML, CSS &amp; JavaScript.</span>
+          <span>Hosted on GitHub Pages</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <!-- Image modal / lightbox, shared by every project thumbnail -->
+  <div class="modal-overlay" data-modal-overlay>
+    <div class="modal-box">
+      <img data-modal-image src="" alt="" />
+      <div class="modal-caption">
+        <span data-modal-caption></span>
+        <button class="modal-close" data-modal-close aria-label="Close preview">✕</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="scroll-top-btn" data-scroll-top aria-label="Scroll back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
